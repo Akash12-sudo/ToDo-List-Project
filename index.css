@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+  background-color: rgb(92, 125, 214);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html{
+  font-size: 62.5%;
+
+}
+
+div{
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 50rem;
+  height: 80rem;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  border-radius: 8%;
+}
+
+.innerdiv{
+  text-align: center;
+  padding-top: 5rem;
+  overflow-y: auto;
+}
+
+
+h1{
+  font-size: 6rem;
+  font-weight: 1000;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(128, 7, 184);
+  color: white;
+}
+
+
+.maindiv{
+  background-color: white;
+  margin-left: 10rem;
+
+}
+
+input{
+  text-align: center;
+  margin-top: 8rem;
+  background-color: white;
+  height: 4rem;
+  width: 20rem;
+  font-size: x-large;
+  border: 1rem solid white;
+  display: flexbox;
+}
+
+input::placeholder{
+  color: blue;
+  font-size: 3.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
+
+.buttondiv{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  background-color: white;
+}
+
+.btn{
+  background-color: white;
+  border: none; 
+  color: white;
+  margin-left: 2rem;
+  padding: 0.2rem 0.2rem; 
+  font-size: 8rem; 
+  cursor: pointer;
+}
+
+
+hr{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0rem;
+  width: 28rem;
+  border: 0.2rem solid rgb(124, 124, 223);
+}
+
+
+i{
+  color:rgb(128, 7, 184);
+  background-color: white;
+}
+
+i:hover{
+  color: rgb(21, 156, 39);
+}
+
+ul{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  background-color: white;
+
+}
+
+li{
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0.7rem;
+  background-color: white;
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
+li i{
+   margin-top: 0rem;
+   color: white;
+   margin-right: 1rem;
+   padding-top: 1.4rem;
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+   background-color:rgb(128, 7, 184);
+   width: 4rem;
+   height: 4rem;
+   border-radius: 50%;
+}
+
+li i:hover{
+  background-color: red;  margin-top: 0vh;
+
+  color: white;
+}
+
+@media(max-width: 998px)
+{
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
+}
